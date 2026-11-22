@@ -4,6 +4,12 @@ Containerlab sim to test an IPv6-only core running SRv6, with edge CE routers co
 
 IPv4 networks should be relayed in BGP with End.DT4 SIDs to allow for SRv6 transport across the core and termination into the global IPv4 table on the egress PE.
 
+## Topology
+
+srv6_junos_ipv4.png
+
+[![srv6_junos_ipv4 topology](diagram/srv6_junos_ipv4.png)](diagram/srv6_junos_ipv4.pdf?raw=true)
+
 ## Config
 
 The full configs are in [startup_configs](startup_configs)
