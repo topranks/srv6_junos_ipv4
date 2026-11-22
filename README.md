@@ -22,7 +22,7 @@ We allocate a end-dt4-sid to handle traffic for the global IPv4 table:
 set protocols bgp source-packet-routing srv6 locator LOC1 end-dt4-sid 5f00:0:3:0:d4::
 ```
 And then configure BGP to announce IPv4 unicast BGP routes with this SID:
-'''
+```
 set protocols bgp group IBGP family inet unicast extended-nexthop
 set protocols bgp group IBGP family inet unicast advertise-srv6-service
 set protocols bgp group IBGP family inet unicast accept-srv6-service
