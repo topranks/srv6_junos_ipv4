@@ -6,6 +6,8 @@ IPv4 networks should be relayed in BGP with End.DT4 SIDs to allow for SRv6 trans
 
 ## Config
 
+The full configs are in [startup_configs](startup_configs)
+
 Each PE gets an SRv6 locator from 5f00::/16, for instance PE2 is given 5f00:0:3::/64. 
 
 ```
