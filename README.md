@@ -6,8 +6,6 @@ IPv4 networks should be relayed in BGP with End.DT4 SIDs to allow for SRv6 trans
 
 ## Topology
 
-srv6_junos_ipv4.png
-
 [![srv6_junos_ipv4 topology](diagram/srv6_junos_ipv4.png)](diagram/srv6_junos_ipv4.pdf?raw=true)
 
 ## Config
