@@ -4,6 +4,19 @@ Containerlab sim to test an IPv6-only core running SRv6, with edge CE routers co
 
 IPv4 prefixes are announced in IBGP with End.DT4 SID to allow for SRv6 transport across the core and termination into the global IPv4 table on the egress PE.
 
+## Lab
+
+The lab expects two docker images to be present on the system, users may need to adjust the "image" names or use "docker tag" to ensure they are found on their system.
+
+|Image Name|Decription|
+|----------|----------|
+|debian:clab|Vanilla debian container image with FRR installed (apt install frr)|
+|vrnetlab/juniper_vjunos-router:25.4R1-S2.3|Juniper vjunos-router image|
+
+vjunos-router is available free of charge to download from Juniper:
+
+https://support.juniper.net/support/downloads/?p=vjunos-router
+
 ## Topology
 
 [![srv6_junos_ipv4 topology](diagram/srv6_junos_ipv4.png)](diagram/srv6_junos_ipv4.pdf?raw=true)
