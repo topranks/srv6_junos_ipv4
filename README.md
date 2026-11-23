@@ -6,7 +6,7 @@ IPv4 prefixes are announced in IBGP with End.DT4 SID to allow for SRv6 transport
 
 ## Lab
 
-The lab expects two docker images to be present on the system, users may need to adjust the "image" names or use "docker tag" to ensure they are found on their system.
+The lab expects two docker images to be present on the system, users may need to adjust the iamge names in the YAML topology to match what they are called on their system, or use "docker tag" to alias their own images to the names below:
 
 |Image Name|Decription|
 |----------|----------|
